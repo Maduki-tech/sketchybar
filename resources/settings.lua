@@ -1,5 +1,5 @@
-layout_value = 7
-font_value = 3.75
+local layout_value = 7
+local font_value = 3.75
 
 return {
 	layout_1x = layout_value,

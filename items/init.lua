@@ -6,6 +6,7 @@ require("items.spaces")
 
 -- center
 require("items.calendar")
+require("items.media")
 
 -- right
 require("items.power")

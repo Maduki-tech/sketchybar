@@ -1,7 +1,7 @@
 local network = SBar.add("item", "network", {
 	position = "right",
 	icon = {
-		string = icons.wifi.down,
+		string = icons.wifi.up,
 		background = {
 			color = colors.purple,
 		},
@@ -17,7 +17,7 @@ local network = SBar.add("item", "network", {
 	},
 })
 
-local popup_width = 110
+local popup_width = 210
 
 local ip = SBar.add("item", {
 	position = "popup." .. network.name,

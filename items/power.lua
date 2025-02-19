@@ -4,19 +4,14 @@ local power = SBar.add("item", "power", {
 		string = icons.power,
 		background = {
 			color = colors.yellow,
-			corner_radius = 100,
-			border_width = 1,
-			border_color = colors.white,
 		},
 	},
 	label = {
 		string = "?%",
 	},
 	update_freq = 100,
-	background = {
-		corner_radius = 100,
-		border_width = 1,
-		border_color = colors.white,
+	popup = {
+		align = "right",
 	},
 })
 

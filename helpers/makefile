@@ -1,2 +1,2 @@
-all:
+run:
 	$(cd events && $(MAKE))
